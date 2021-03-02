@@ -1,14 +1,13 @@
 # boringp2p
-quic based iot media transport solution
-
-基于开源quic代码实现iot音视频传输方案
-功能包含:
+    基于开源quic代码实现iot音视频传输方案
+# 描述
+    功能包含:
     1. server端代码
     2. 客户端代码sdk及调用demo (linux/android/ios/windows)
     3. 三种传输模式 （p2p/relay/LAN)
     4. 传输任意数据 (短消息/音频/视频/others)
 
-特征:
+    特征:
     1. 所有接入均认证和端到端传输加密 (安全是该方案最重要的基石)
     2. 最快加载体验 (quic特性)
     3. 弱网低时延 (quic特性)
